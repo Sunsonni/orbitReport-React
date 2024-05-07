@@ -1,5 +1,8 @@
 import './styling.css';
-
+/*
+Creates table. Sat map takes data out of sat and for each item displays values.
+The last item in table uses a ternary operator to display active or inactive depending on operational boolean
+*/
 const Table = ({ sat }) => {
   return (
     <table>
